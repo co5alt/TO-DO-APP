@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway');
+
+#new-bar {
+    height: 10vh;
+    line-height: 10vh;    
+    font-size: 3em;
+    font-family: "Oswald", sans-serif;
+    margin: 2vh 0 2vh 0;
+    text-align: center;
+    background: ghostwhite;
+    color: gray;
+}
+#add-todo {
+    position: relative;
+    display: none;
+    margin: 2vh;
+    padding: 2vh;
+    border: 1px solid ghostwhite;
+}
+#collapse {
+    position: relative;
+    top: -2.5vh;
+    right: -2.5vh;
+    height: 2.5vh;
+    width: 2.5vh;
+    font-weight: 500;
+    border-radius: 2.5vh;
+    text-align: center;
+    float: right;
+    background: ghostwhite;
+    color: gray;
+    
+    
+}
+
+.time-of-day {
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    font-weight: 750;
+    text-align: center;
+}
+
+.todo-list {
+    height: 50vh;
+    background: ghostwhite;
+    margin-bottom: 0.5rem;
+}
+
+.todo-list .badge {
+    visibility: hidden;
+}
+
+.completed span {
+    text-decoration: line-through;
+}
+
+.completed span:last-of-type {
+    text-decoration: none;
+}
+
+.completed .badge {
+    visibility: visible;
+}
+
+button {
+    float: right;
+    margin: 0 1vh;
+    background: ghostwhite;
+    border: 1px solid gray;
+    color: gray;
+}

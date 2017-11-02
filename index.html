@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ToDo App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- href is css/main.css -->
+</head>
+
+<body>
+    <main class="container">
+        <div class="col-12" id="new-bar">ADD A NEW ITEM</div>
+        <div id="add-todo">
+            <div class="row">
+                <div class="col">
+                    <div id="collapse">X</div>
+                    <form action="" id="todo-form">
+                        <div class="form-group">
+                            <label for="todo-desc">What do I need to do?</label>
+                            <input type="text" class="form-control" id="todo-desc" autocomplete="off" />
+                        </div>
+                        <div class="form-group">
+                            <label for="todo-group">When do I need to do it?</label>
+                            <select class="form-control" id="todo-group">
+            
+        <option selected value="morning">In the morning.</option>
+        <option value="afternoon">In the afternoon.</option>
+        <option value="evening">In the evening.</option>
+        </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="due-date"></label>
+                            <input class="form-control" type="date" id="due-date">
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label"><input type="radio" class="form-check-input" id="low" name="item-priority" value="low" checked="checked">
+                    LOW</label>
+
+                            <label class="form-check-label"><input type="radio" class="form-check-input" id="medium" name="item-priority" value="medium">
+                    MEDIUM</label>
+
+                            <label class="form-check-label"><input type="radio" class="form-check-input" id="high" name="item-priority" value="high">
+                    HIGH</label>
+                        </div>
+                        <button type="reset" id="reset" class="btn">Clear the list</button>
+                        <button type="submit" class="btn">Add to the list</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="time-of-day col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <h3>Morning</h3>
+
+                <div class="todo-list morning">
+                    <ul class="list-group">
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="time-of-day col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <h3>Afternoon</h3>
+                <div class="todo-list afternoon">
+                    <ul class="list-group">
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="time-of-day col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <h3>Evening</h3>
+                <div class="todo-list evening">
+                    <ul class="list-group">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
