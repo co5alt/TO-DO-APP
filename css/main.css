@@ -9,6 +9,7 @@
     text-align: center;
     background: ghostwhite;
     color: gray;
+    border: 1px solid gray;
 }
 
 #add-todo {
@@ -16,7 +17,7 @@
     display: none;
     margin: 2vh;
     padding: 2vh;
-    border: 1px solid ghostwhite;
+    border: 1px solid gray;
 }
 
 #collapse {
@@ -69,9 +70,12 @@ button {
     float: right;
     margin: 0 1vh;
     background: ghostwhite;
-    border: 1px solid gray;
+    border: 2px solid gray;
     text-transform: uppercase;
     color: gray;
 }
 
+#reset {
+    margin-bottom: 2.5vh;
+}
 
