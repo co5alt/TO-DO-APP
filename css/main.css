@@ -2,7 +2,7 @@
 
 #new-bar {
     height: 10vh;
-    line-height: 10vh;    
+    line-height: 10vh;
     font-size: 3em;
     font-family: "Oswald", sans-serif;
     margin: 2vh 0 2vh 0;
@@ -10,6 +10,7 @@
     background: ghostwhite;
     color: gray;
 }
+
 #add-todo {
     position: relative;
     display: none;
@@ -17,6 +18,7 @@
     padding: 2vh;
     border: 1px solid ghostwhite;
 }
+
 #collapse {
     position: relative;
     top: -2.5vh;
@@ -29,8 +31,8 @@
     float: right;
     background: ghostwhite;
     color: gray;
-    
-    
+
+
 }
 
 .time-of-day {
@@ -43,6 +45,7 @@
 .todo-list {
     height: 50vh;
     background: ghostwhite;
+    border: 2px solid gray;
     margin-bottom: 0.5rem;
 }
 
@@ -67,5 +70,8 @@ button {
     margin: 0 1vh;
     background: ghostwhite;
     border: 1px solid gray;
+    text-transform: uppercase;
     color: gray;
 }
+
+
